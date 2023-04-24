@@ -4,7 +4,7 @@ Markdownは書式づけられた要素を平文のドキュメントに追加で
 
 Markdownを使うことは[WYSIWYG](https://ja.wikipedia.org/wiki/WYSIWYG)エディターを使うこととは異なります。Microsoft Wordのようなアプリケーションでは、 ボタンをクリックして単語やフレーズをフォーマットすると、すぐに表示が変わります。Markdownはそうではありません。Markdownでは、Markdownの構文をテキストに追加することで、単語やフレーズをどのように表示させるかを示すことができます。
 
-例えば、見出しを示すときには、見出しの前にシャープを追加します （例： `# 見出し1`）。フレーズを太字にするには、フレーズの前後にアスタリスクを2つ追加します （例： `**このテキストは太字です**`）。特にあなたがWWYSIWYGアプリケーションに慣れている場合には、Markdownの構文に慣れるのには時間がかかるかもしれません。下のスクリーンショットは[Visual Studio Code text editor](/tools/vscode/)でMarkdownファイルがどのように表示されるかを示しています。
+例えば、見出しを示すときには、見出しの前にシャープを追加します （例： `# 見出し1`）。フレーズを太字にするには、フレーズの前後にアスタリスクを2つ追加します （例： `**このテキストは太字です**`）。特にあなたがWWYSIWYGアプリケーションに慣れている場合には、Markdownの構文に慣れるのには時間がかかるかもしれません。下のスクリーンショットは[Visual Studio Codeコードエディター](/tools/vscode/)でMarkdownファイルがどのように表示されるかを示しています。
 
 {% include image.html file="/assets/images/vscode.png" alt="Markdown file in the Visual Studio Code text editor" %}
 
