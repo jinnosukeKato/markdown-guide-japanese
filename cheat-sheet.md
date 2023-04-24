@@ -1,104 +1,104 @@
 ---
 layout: default
-title: Markdown Cheat Sheet
-description: A quick reference to the Markdown syntax.
+title: Markdown早見表
+description: Markdownの構文の早見表です。
 last_modified_at: 2021-12-05
 ---
 
-## Overview
+## 概要
 
-This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can't cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](/basic-syntax) and [extended syntax](/extended-syntax).
+このMarkdown早見表は全てのMarkdown構文要素の概要を簡単にを説明します。全てのエッジケースまでカバーすることはできないので、各要素についてさらに情報が必要な場合は、[basic syntax](/basic-syntax)と[extended syntax](/extended-syntax)リファレンスガイドを参照してください。
 
-## Basic Syntax
+## 基本構文
 
-These are the elements outlined in John Gruber's original design document. All Markdown applications support these elements.
+これらはJohn Gruberのオリジナルデザインドキュメントに記載されている要素です。全てのMarkdownアプリケーションはこれらの要素に対応しています。
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
-      <th>Markdown Syntax</th>
+      <th>要素</th>
+      <th>Markdown構文</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="/basic-syntax/#headings">Heading</a></td>
+      <td><a href="/basic-syntax/#headings">見出し</a></td>
       <td><code># H1<br>
           ## H2<br>
           ### H3</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#bold">Bold</a></td>
-      <td><code>**bold text**</code></td>
+      <td><a href="/basic-syntax/#bold">太字</a></td>
+      <td><code>**太字のテキスト**</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#italic">Italic</a></td>
-      <td><code>*italicized text*</code></td>
+      <td><a href="/basic-syntax/#italic">斜体</a></td>
+      <td><code>*イタリックのテキスト*</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#blockquotes-1">Blockquote</a></td>
-      <td><code>> blockquote</code></td>
+      <td><a href="/basic-syntax/#blockquotes-1">ブロッククォート</a></td>
+      <td><code>> ブロッククォート</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#ordered-lists">Ordered List</a></td>
+      <td><a href="/basic-syntax/#ordered-lists">順序付きリスト</a></td>
       <td><code>
-        1. First item<br>
-        2. Second item<br>
-        3. Third item<br>
+        1. 一つ目のアイテム<br>
+        2. 二つ目のアイテム<br>
+        3. 三つ目のアイテム<br>
       </code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#unordered-lists">Unordered List</a></td>
+      <td><a href="/basic-syntax/#unordered-lists">順序なしリスト</a></td>
       <td>
         <code>
-          - First item<br>
-          - Second item<br>
-          - Third item<br>
+          - 一つ目のアイテム<br>
+          - 二つ目のアイテム<br>
+          - 三つ目のアイテム<br>
         </code>
       </td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#code">Code</a></td>
+      <td><a href="/basic-syntax/#code">コード</a></td>
       <td><code>`code`</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#horizontal-rules">Horizontal Rule</a></td>
+      <td><a href="/basic-syntax/#horizontal-rules">水平罫線</a></td>
       <td><code>---</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#links">Link</a></td>
-      <td><code>[title](https://www.example.com)</code></td>
+      <td><a href="/basic-syntax/#links">リンク</a></td>
+      <td><code>[タイトル](https://www.example.com)</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#images-1">Image</a></td>
-      <td><code>![alt text](image.jpg)</code></td>
+      <td><a href="/basic-syntax/#images-1">画像</a></td>
+      <td><code>![代替テキスト](image.jpg)</code></td>
     </tr>
   </tbody>
 </table>
 
-## Extended Syntax
+## 拡張構文
 
-These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
+これらの要素は基本構文を追加機能で拡張します。全てのMarkdownアプリケーションが対応しているわけではありません。
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
-      <th>Markdown Syntax</th>
+      <th>要素</th>
+      <th>Markdown構文</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="/extended-syntax/#tables">Table</a></td>
+      <td><a href="/extended-syntax/#tables">テーブル</a></td>
       <td><code>
-          | Syntax      | Description |<br>
+          | 要素         | 説明        |<br>
           | ----------- | ----------- |<br>
-          | Header      | Title       |<br>
-          | Paragraph   | Text        |
+          | 見出し       | タイトル     |<br>
+          | 段落         | テキスト     |
       </code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Block</a></td>
+      <td><a href="/extended-syntax/#fenced-code-blocks">囲まれたコードブロック</a></td>
       <td><code>```<br>
       {<br>
       &nbsp;&nbsp;"firstName": "John",<br>
@@ -109,55 +109,55 @@ These elements extend the basic syntax by adding additional features. Not all Ma
       </code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#footnotes">Footnote</a></td>
+      <td><a href="/extended-syntax/#footnotes">脚注</a></td>
       <td><code>
-        Here's a sentence with a footnote. [^1]<br><br>
-        [^1]: This is the footnote.
+        脚注付きの文章を紹介します。[^1]<br><br>
+        [^1]: これは脚注です。
       </code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#heading-ids">Heading ID</a></td>
-      <td><code>### My Great Heading {#custom-id}</code></td>
+      <td><a href="/extended-syntax/#heading-ids">見出しID</a></td>
+      <td><code>### 偉大な見出し {#custom-id}</code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#definition-lists">Definition List</a></td>
+      <td><a href="/extended-syntax/#definition-lists">説明リスト</a></td>
       <td><code>
-        term<br>
-        : definition
+        用語<br>
+        : 定義
       </code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#strikethrough">Strikethrough</a></td>
-      <td><code>~~The world is flat.~~</code></td>
+      <td><a href="/extended-syntax/#strikethrough">取り消し線</a></td>
+      <td><code>~~地球は平面。~~</code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#task-lists">Task List</a></td>
+      <td><a href="/extended-syntax/#task-lists">Todoリスト</a></td>
       <td><code>
-        - [x] Write the press release<br>
-        - [ ] Update the website<br>
-        - [ ] Contact the media
+        - [x] プレスリリースを書く<br>
+        - [ ] ウェブサイトを更新する<br>
+        - [ ] マスコミに連絡する
       </code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#emoji">Emoji</a><br>(see also <a href="/extended-syntax/#copying-and-pasting-emoji">Copying and Pasting Emoji</a>)</td>
+      <td><a href="/extended-syntax/#emoji">絵文字</a><br>（<a href="/extended-syntax/#copying-and-pasting-emoji">Copying and Pasting Emoji</a>も参照してください）</td>
       <td><code>
-        That is so funny! :joy:
+        超楽しい！ :joy:
       </code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#highlight">Highlight</a></td>
+      <td><a href="/extended-syntax/#highlight">ハイライト</a></td>
       <td><code>
-        I need to highlight these ==very important words==.
+        とても ==大事な単語== をハイライトしたい。
       </code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#subscript">Subscript</a></td>
+      <td><a href="/extended-syntax/#subscript">添え字</a></td>
       <td><code>
         H~2~O
       </code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#superscript">Superscript</a></td>
+      <td><a href="/extended-syntax/#superscript">上付き文字</a></td>
       <td><code>
         X^2^
       </code></td>
@@ -165,6 +165,6 @@ These elements extend the basic syntax by adding additional features. Not all Ma
   </tbody>
 </table>
 
-## Downloads
+## ダウンロード
 
-You can <a href="/assets/markdown-cheat-sheet.md" download="markdown-cheat-sheet.md">download this cheat sheet as a Markdown file</a> for use in your Markdown application.
+この早見表を<a href="/assets/markdown-cheat-sheet.md" download="markdown-cheat-sheet.md">Markdownファイルとしてダウンロード</a>できます。お好きなMarkdownアプリケーションで使用してください。
