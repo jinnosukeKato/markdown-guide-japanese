@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Getting Started
-description: An overview of Markdown, how it works, and what you can do with it.
+description: Markdownの概要、仕組み、そしてMarkdownでできることを紹介します。
 last_modified_at: 2022-09-26
 ---
 
