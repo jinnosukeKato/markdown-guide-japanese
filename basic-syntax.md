@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Basic Syntax
-description: The Markdown elements outlined in the original design document.
+title: 基本構文
+description: オリジナルの設計文書で決められたMarkdownの要素です。
 last_modified_at: 2023-04-22
 ---
 
