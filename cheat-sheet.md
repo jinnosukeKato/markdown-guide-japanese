@@ -7,7 +7,7 @@ last_modified_at: 2021-12-05
 
 ## 概要
 
-このMarkdown早見表は全てのMarkdown構文要素の概要を簡単に説明します。全てのエッジケースまでカバーすることはできないので、各要素についてさらに情報が必要な場合は、[basic syntax](/basic-syntax)と[extended syntax](/extended-syntax)リファレンスガイドを参照してください。
+このMarkdown早見表は全てのMarkdown構文要素の概要を簡単に説明します。全てのエッジケースまでカバーすることはできないので、各要素についてさらに情報が必要な場合は、[基本構文](/basic-syntax)と[拡張構文](/extended-syntax)リファレンスガイドを参照してください。
 
 ## 基本構文
 
