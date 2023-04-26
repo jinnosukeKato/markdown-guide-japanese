@@ -1,7 +1,7 @@
 ---
-title: Overview
+title: 概要
 syntax-id: overview
 api: "no"
 ---
 
-Nearly all Markdown applications support the basic syntax outlined in the original Markdown design document. There are minor variations and discrepancies between Markdown processors — those are noted inline wherever possible.
+ほとんどのMarkdownアプリケーションはオリジナルの設計文書で定義された基本構文に対応しています。Markdownプロセッサの間には僅かに差異があります。 — それらの差異はできるだけ表記しています。
