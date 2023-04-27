@@ -20,18 +20,18 @@ examples:
   - markdown: "###### 見出しレベル6"
     html: "<h6>見出しレベル6</h6>"
 additional-examples:
-  - name: "h1代替構文"
-    description: "Alternatively, on the line below the text, add any number of == characters for heading level 1."
+  - name: "H1代替構文"
+    description: "`#`の代わりに、テキストの下の行に、いくつかの`==`を追加し、レベル1の見出しを追加できます。"
     markdown: |
-      Heading level 1
+      見出しレベル1
       ===============
-    html: "<h1>Heading level 1</h1>"
-  - name: "Alternative H2 Syntax"
-    description: "Alternatively, on the line below the text, add any number of -- characters for heading level 2."
+    html: "<h1>見出しレベル1</h1>"
+  - name: "H2代替構文"
+    description: "`#`の代わりに、テキストの下の行に、いくつかの`--`を追加し、レベル2の見出しを追加できます。"
     markdown: |
-      Heading level 2
+      見出しレベル2
       ---------------
-    html: "<h2>Heading level 2</h2>"
+    html: "<h2>見出しレベル2</h2>"
 ---
 
 見出しを作成するには、シャープ(`#`)を単語やフレーズの前に付けます。シャープの数は見出しレベルに対応させる必要があります。例えばレベル3の見出し(`<h3>`)を作成するには、シャープを3つ使います(例：`### 見出し`)。
