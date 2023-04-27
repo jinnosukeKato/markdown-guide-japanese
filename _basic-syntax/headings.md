@@ -1,26 +1,26 @@
 ---
-title: Headings
+title: 見出し
 syntax-id: headings
 syntax-summary: |
   # H1
   ## H2
   ### H3
-description: "To create a heading, add number signs (`#`) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (`<h3>`), use three number signs (e.g., `### My Header`)."
+description: "見出しを作成するには、シャープ(`#`)を単語やフレーズの前に付けます。シャープの数は見出しレベルに対応させる必要があります。例えばレベル3の見出し(`<h3>`)を作成するには、シャープを3つ使います(例：`### 見出し`)。"
 examples:
-  - markdown: "# Heading level 1"
-    html: "<h1>Heading level 1</h1>"
-  - markdown: "## Heading level 2"
-    html: "<h2>Heading level 2</h2>"
-  - markdown: "### Heading level 3"
-    html: "<h3>Heading level 3</h3>"
-  - markdown: "#### Heading level 4"
-    html: "<h4>Heading level 4</h4>"
-  - markdown: "##### Heading level 5"
-    html: "<h5>Heading level 5</h5>"
-  - markdown: "###### Heading level 6"
-    html: "<h6>Heading level 6</h6>"
+  - markdown: "# 見出しレベル1"
+    html: "<h1>見出しレベル1</h1>"
+  - markdown: "## 見出しレベル2"
+    html: "<h2>見出しレベル2</h2>"
+  - markdown: "### 見出しレベル3"
+    html: "<h3>見出しレベル3</h3>"
+  - markdown: "#### 見出しレベル4"
+    html: "<h4>見出しレベル4</h4>"
+  - markdown: "##### 見出しレベル5"
+    html: "<h5>見出しレベル5</h5>"
+  - markdown: "###### 見出しレベル6"
+    html: "<h6>見出しレベル6</h6>"
 additional-examples:
-  - name: "Alternative H1 Syntax"
+  - name: "h1代替構文"
     description: "Alternatively, on the line below the text, add any number of == characters for heading level 1."
     markdown: |
       Heading level 1
@@ -34,79 +34,79 @@ additional-examples:
     html: "<h2>Heading level 2</h2>"
 ---
 
-To create a heading, add number signs (`#`) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (`<h3>`), use three number signs (e.g., `### My Header`).
+見出しを作成するには、シャープ(`#`)を単語やフレーズの前に付けます。シャープの数は見出しレベルに対応させる必要があります。例えばレベル3の見出し(`<h3>`)を作成するには、シャープを3つ使います(例：`### 見出し`)。
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>描画された出力</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><code class="highlighter-rouge"># Heading level 1</code></td>
-      <td><code class="highlighter-rouge">&lt;h1&gt;Heading level 1&lt;/h1&gt;</code></td>
-      <td><h1 class="no-anchor" data-toc-skip>Heading level 1</h1></td>
+      <td><code class="highlighter-rouge"># 見出しレベル1</code></td>
+      <td><code class="highlighter-rouge">&lt;h1&gt;見出しレベル1&lt;/h1&gt;</code></td>
+      <td><h1 class="no-anchor" data-toc-skip>見出しレベル1</h1></td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">## Heading level 2</code></td>
-      <td><code class="highlighter-rouge">&lt;h2&gt;Heading level 2&lt;/h2&gt;</code></td>
-      <td><h2 class="no-anchor" data-toc-skip>Heading level 2</h2></td>
+      <td><code class="highlighter-rouge">## 見出しレベル2</code></td>
+      <td><code class="highlighter-rouge">&lt;h2&gt;見出しレベル2&lt;/h2&gt;</code></td>
+      <td><h2 class="no-anchor" data-toc-skip>見出しレベル</h2></td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">### Heading level 3</code></td>
-      <td><code class="highlighter-rouge">&lt;h3&gt;Heading level 3&lt;/h3&gt;</code></td>
-      <td><h3 class="no-anchor" data-toc-skip>Heading level 3</h3></td>
+      <td><code class="highlighter-rouge">### 見出しレベル3</code></td>
+      <td><code class="highlighter-rouge">&lt;h3&gt;見出しレベル3&lt;/h3&gt;</code></td>
+      <td><h3 class="no-anchor" data-toc-skip>見出しレベル3</h3></td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">#### Heading level 4</code></td>
-      <td><code class="highlighter-rouge">&lt;h4&gt;Heading level  4&lt;/h4&gt;</code></td>
-      <td><h4 class="no-anchor">Heading level 4</h4></td>
+      <td><code class="highlighter-rouge">#### 見出しレベル4</code></td>
+      <td><code class="highlighter-rouge">&lt;h4&gt;見出しレベル4&lt;/h4&gt;</code></td>
+      <td><h4 class="no-anchor">見出しレベル4</h4></td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">##### Heading level 5</code></td>
-      <td><code class="highlighter-rouge">&lt;h5&gt;Heading level 5&lt;/h5&gt;</code></td>
-      <td><h5 class="no-anchor">Heading level 5</h5></td>
+      <td><code class="highlighter-rouge">##### 見出しレベル5</code></td>
+      <td><code class="highlighter-rouge">&lt;h5&gt;見出しレベル5&lt;/h5&gt;</code></td>
+      <td><h5 class="no-anchor">見出しレベル5</h5></td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">###### Heading level 6</code></td>
-      <td><code class="highlighter-rouge">&lt;h6&gt;Heading level 6&lt;/h6&gt;</code></td>
-      <td><h6 class="no-anchor">Heading level 6</h6></td>
+      <td><code class="highlighter-rouge">###### 見出しレベル6</code></td>
+      <td><code class="highlighter-rouge">&lt;h6&gt;見出しレベル6&lt;/h6&gt;</code></td>
+      <td><h6 class="no-anchor">見出しレベル6</h6></td>
     </tr>
   </tbody>
 </table>
 
-### Alternate Syntax
+### 代替構文
 
-Alternatively, on the line below the text, add any number of `==` characters for heading level 1 or `--` characters for heading level 2.
+`#`の代わりに、テキストの下の行に、いくつかの`==`を追加し、レベル1の見出しを、または`--`を追加してレベル2の見出しを作成することができます。
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>描画された出力</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><code class="highlighter-rouge">Heading level 1<br/>===============</code></td>
-      <td><code class="highlighter-rouge">&lt;h1&gt;Heading level 1&lt;/h1&gt;</code></td>
-      <td><h1 class="no-anchor" data-toc-skip>Heading level 1</h1></td>
+      <td><code class="highlighter-rouge">見出しレベル1<br/>===============</code></td>
+      <td><code class="highlighter-rouge">&lt;h1&gt;見出しレベル1&lt;/h1&gt;</code></td>
+      <td><h1 class="no-anchor" data-toc-skip>見出しレベル1</h1></td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">Heading level 2<br/>---------------</code></td>
-      <td><code class="highlighter-rouge">&lt;h2&gt;Heading level 2&lt;/h2&gt;</code></td>
-      <td><h2 class="no-anchor" data-toc-skip>Heading level 2</h2></td>
+      <td><code class="highlighter-rouge">見出しレベル2<br/>---------------</code></td>
+      <td><code class="highlighter-rouge">&lt;h2&gt;見出しレベル2&lt;/h2&gt;</code></td>
+      <td><h2 class="no-anchor" data-toc-skip>見出しレベル2</h2></td>
     </tr>
   </tbody>
 </table>
 
-### Heading Best Practices
+### 見出しのベストプラクティス
 
-Markdown applications don't agree on how to handle a missing space between the number signs (`#`) and the heading name. For compatibility, always put a space between the number signs and the heading name.
+Markdownアプリケーションはシャープ(`#`)と見出しの名前の間にスペースがないと見出しとして認識しません。互換性のために、常にシャープと見出しの間にはスペースを入れてください。
 
 <table class="table table-bordered">
   <thead class="thead-light">
